@@ -1,0 +1,24 @@
+const IMG = {
+  pho: "./images/pho-bo-that.jpg",       // Đường dẫn tới ảnh thật của bạn
+  bun: "./images/bun-bo-hue-that.jpg",
+  banhmi: "./images/banh-mi-that.jpg",
+  spring: "./images/goi-cuon-that.jpg",
+  nem: "./images/nem-ran-that.jpg",
+  sugar: "./images/nuoc-mia-that.jpg",
+  cola: "./images/coca-cola.jpg",
+  coffee: "./images/ca-phe-sua.jpg"
+};
+
+
+THÊM ẢNH MÓN MỚI 
+const IMG = {
+  pho: "./images/pho-bo-that.jpg",       // Đường dẫn tới ảnh thật của bạn
+  bun: "./images/bun-bo-hue-that.jpg",
+  banhmi: "./images/banh-mi-that.jpg",
+  spring: "./images/goi-cuon-that.jpg",
+  nem: "./images/nem-ran-that.jpg",
+  sugar: "./images/nuoc-mia-that.jpg",
+  cola: "./images/coca-cola.jpg",
+  coffee: "./images/ca-phe-sua.jpg"
+};
+
