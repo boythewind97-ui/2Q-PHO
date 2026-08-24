@@ -33,7 +33,7 @@ const menu = [
 ["SP000045","food","Gỏi cuốn tôm thịt 3 cái","Gỏi cuốn tôm thịt 3 cái",750,"spring"],
 ["SP000060","food","Thêm Trứng Chần","Trứng chần",110,"pho"],
 ["SP000061","food","Thêm bún・phở","Thêm bún / phở",110,"pho"],
-["SP000073","food","Phở cho bé","お子様フォー",650,"pho"],
+["SP000073","food","Phở おこさmな","お子様フォー PHO",650,"pho"],
 ["SP000089","food","PHỞ THẬP CẨM","Phở thập cẩm",980,"pho"],
 ["SP000098","drink","Bia Asahi 633ml","Bia Asahi 633ml",650,"cola"],
 ["SP000095","drink","Nước Dừa（dừa lon）","Nước dừa",350,"sugar"],
