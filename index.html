@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="2Q PHỞ - 本場ベトナムの味を楽しめるベトナム料理店。フォー、ブンボーフエ、バインミーなどをご提供しています。">
+  <title>2Q PHỞ | Vietnamese Restaurant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <a class="logo-wrap" href="#home">
+    <div class="logo-placeholder">2Q PHỞ</div>
+    <!-- 後で本物のロゴに変更:
+    <img src="images/logo.png" alt="2Q PHỞ">
+    -->
+  </a>
+
+  <nav class="nav">
+    <a href="#home">ホーム</a>
+    <a href="#menu">メニュー</a>
+    <a href="#about">お店の紹介</a>
+    <a href="#gallery">ギャラリー</a>
+    <a href="#access">アクセス</a>
+  </nav>
+
+  <div class="socials">
+    <a href="#" aria-label="TikTok">♪</a>
+    <a href="#" aria-label="Facebook">f</a>
+    <a href="#" aria-label="Instagram">◎</a>
+    <a class="contact-btn" href="#access">ご予約・お問い合わせ</a>
+  </div>
+</header>
+
+<main id="home">
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="eyebrow">VIETNAMESE RESTAURANT</p>
+      <h1>本場の味、<br>あたたかい一杯</h1>
+      <p class="hero-vn">Hương vị Việt Nam, một tô phở ấm áp</p>
+      <p class="hero-text">香り豊かなスープ、やわらかいお肉、新鮮なハーブ。<br>心もお腹も満たす、本格ベトナムフォーをお楽しみください。</p>
+      <div class="hero-buttons">
+        <a href="#menu" class="btn primary">メニューを見る</a>
+        <a href="#access" class="btn outline">アクセス</a>
+      </div>
+    </div>
+    <div class="hero-logo">2Q PHỞ<br><small>Vietnamese Restaurant</small></div>
+  </section>
+
+  <section id="menu" class="section menu-section">
+    <div class="section-heading">
+      <div>
+        <p class="section-kicker">MENU</p>
+        <h2>おすすめメニュー</h2>
+        <p>人気のメニューをご紹介します</p>
+      </div>
+      <span class="tax-note">すべて税込価格</span>
+    </div>
+
+    <div class="category-tabs">
+      <button class="active" data-filter="all">すべて</button>
+      <button data-filter="food">ĐỒ ĂN / お料理</button>
+      <button data-filter="drink">ĐỒ UỐNG / お飲み物</button>
+      <button data-filter="set">SET / セット</button>
+    </div>
+
+    <div id="menu-grid" class="menu-grid"></div>
+  </section>
+
+  <section id="about" class="about section">
+    <div class="about-photo photo-placeholder">
+      <span>写真：店内<br>images/interior-01.jpg</span>
+    </div>
+    <div class="about-content">
+      <p class="section-kicker">ABOUT 2Q PHỞ</p>
+      <h2>2Q PHỞについて</h2>
+      <p>2Q PHỞは、ベトナムの家庭の味と本格的なフォーを楽しめるベトナム料理店です。</p>
+      <p>新鮮な食材と素材の味を大切にし、毎日おいしい一杯を心を込めてご提供します。</p>
+      <div class="quote">“Ăn phở, nhớ quê hương.”<br><small>フォーを食べて、故郷を思い出す。</small></div>
+    </div>
+    <div class="about-photo photo-placeholder">
+      <span>写真：外観<br>images/exterior.jpg</span>
+    </div>
+  </section>
+
+  <section id="gallery" class="section gallery-section">
+    <div class="section-heading center">
+      <p class="section-kicker">GALLERY</p>
+      <h2>お店の雰囲気</h2>
+      <p>写真を追加するとここに自動で表示できます</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item large photo-placeholder">images/interior-01.jpg</div>
+      <div class="gallery-item photo-placeholder">images/interior-02.jpg</div>
+      <div class="gallery-item photo-placeholder">images/interior-03.jpg</div>
+      <div class="gallery-item photo-placeholder">images/exterior.jpg</div>
+      <div class="gallery-item photo-placeholder">images/interior-04.jpg</div>
+    </div>
+  </section>
+
+  <section id="access" class="access section">
+    <div class="access-info">
+      <p class="section-kicker">ACCESS</p>
+      <h2>アクセス・店舗情報</h2>
+      <dl>
+        <div><dt>住所</dt><dd>〒123-4567<br>東京都〇〇区〇〇1-2-3<br>2Q PHỞ</dd></div>
+        <div><dt>営業時間</dt><dd>11:00 - 15:00（L.O. 14:30）<br>17:00 - 22:00（L.O. 21:30）</dd></div>
+        <div><dt>定休日</dt><dd>月曜日</dd></div>
+      </dl>
+      <p class="small-note">※住所・営業時間・定休日は実際の店舗情報に変更してください。</p>
+    </div>
+    <div class="map-placeholder">
+      <div>
+        <strong>Google Maps</strong>
+        <p>ここにGoogle Mapsの埋め込みコードを追加</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-logo">2Q PHỞ<br><small>Vietnamese Restaurant</small></div>
+  <div>
+    <h3>SNS</h3>
+    <a href="#">TikTok</a>
+    <a href="#">Facebook</a>
+    <a href="#">Instagram</a>
+  </div>
+  <div>
+    <h3>お問い合わせ</h3>
+    <p>電話：000-0000-0000</p>
+    <p>ご予約・お問い合わせはこちら</p>
+  </div>
+  <div class="qr-placeholder">QR<br>CODE</div>
+  <p class="copyright">© 2026 2Q PHỞ. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
