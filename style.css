@@ -18,3 +18,78 @@ footer{background:#243629;color:#eee;padding:45px 6% 20px;display:grid;grid-temp
 @media(max-width:1100px){nav{gap:14px}.socials a:not(.phone){display:none}.hero-mark{display:none}.menu-grid{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:760px){.header{height:auto;padding:12px 18px;flex-wrap:wrap}.brand{min-width:auto}.socials{margin-left:auto}.socials .phone{font-size:11px}.header nav{order:3;flex-basis:100%;overflow-x:auto;justify-content:flex-start;padding-top:7px}.hero{height:620px}.hero-copy{padding:50px 22px}h1{font-size:44px}.section{padding:55px 20px}.menu-grid{grid-template-columns:repeat(2,1fr);gap:12px}.card-img{height:145px}.about,.access{grid-template-columns:1fr;padding:50px 20px}.about-img{min-height:280px}.gallery{grid-template-columns:1fr 1fr;grid-auto-rows:170px}.gallery>div:first-child{grid-row:span 2}footer{grid-template-columns:1fr 1fr;padding:40px 22px}}
 @media(max-width:480px){.menu-grid{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}.gallery>div:first-child{grid-row:auto}.socials .phone{padding:6px}.hero-copy{padding-top:80px}}
+/* =========================
+   SOCIAL ICONS
+========================= */
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-icon,
+.phone-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .25s ease;
+}
+
+.social-icon svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+/* TikTok */
+.social-icon.tiktok {
+  background: #111;
+  color: #fff;
+}
+
+.social-icon.tiktok:hover {
+  background: #25f4ee;
+  color: #111;
+  transform: translateY(-3px);
+}
+
+/* Facebook */
+.social-icon.facebook {
+  background: #1877f2;
+  color: #fff;
+}
+
+.social-icon.facebook:hover {
+  background: #0d5ec7;
+  transform: translateY(-3px);
+}
+
+/* Phone */
+.phone-icon {
+  background: var(--red);
+  color: #fff;
+  font-size: 20px;
+}
+
+.phone-icon:hover {
+  background: #a91f1f;
+  transform: translateY(-3px);
+}
+
+/* Mobile */
+@media (max-width: 760px) {
+  .social-icon,
+  .phone-icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .social-icon svg {
+    width: 18px;
+    height: 18px;
+  }
+}
